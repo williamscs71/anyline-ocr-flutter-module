@@ -17,6 +17,7 @@ NSErrorDomain const ALFlutterDomain = @"ALFlutterDomain";
                               exceptionWithName:@"AnylineCrashTest"
                               reason:@"Intentional crash to reproduce issue"
                               userInfo:nil];
+                              
     [exception raise];
     
     NSDictionary *pluginConf = config;
